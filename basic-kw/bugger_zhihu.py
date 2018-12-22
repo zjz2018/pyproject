@@ -5,7 +5,7 @@ import requests
 from openpyxl import Workbook
 import pymysql.cursors
 
-# 知乎爬虫
+# 知乎book爬虫
 def get_conn():
     """建立数据库连接"""
     conn = pymysql.connect(host='localhost',

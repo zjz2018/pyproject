@@ -12,6 +12,6 @@ if ((player == 1 and computer == 2)  # 条件过长，使用括号，然后在�
         or (player == 3 and computer == 1)):
     print("玩家获胜！")
 elif player == computer:
-    print("平局")
+    print("平局！")
 else:
     print("电脑获胜！")
